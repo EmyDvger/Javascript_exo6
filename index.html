@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8"/>
+  <title>Javascript Exo6</title>
+</head>
+<body>
+  <!-- balise form action et method obligatoire -->
+  <form  action="#" method="post">
+    <div>
+      <label for="birthDate">Quelle est votre année de naissance : </label>
+      <input type="text" id="birthDate" name="birthDate" placeholder="Année de naissance"/>
+      <!-- input est un champ d'écriture - placeholder est le texte apparant dans le input -->
+      <!-- le label est l'intitulé devant l'input-->
+    </div>
+    <div>
+      <label for="shoesSize">Quelle est votre pointure : </label>
+      <input type="text" id="shoesSize" name="shoesSize" placeholder="Pointure chaussure"/>
+    </div>
+    <button id="submit"  name="submit" onClick="validation()">Valider votre saisie </button>
+  </form>
+  <!-- rattacher ma feuille javascript créer à part, à mon index afin d'appliquer les fonctions demandées -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
