@@ -4,6 +4,7 @@ function validation() {
   //get getElementById = obtenir les informations par l'identifiant
   var birthDate = document.getElementById('birthDate').value;
   var shoesSize = document.getElementById('shoesSize').value;
-
+  // var result = ((shoesSize *2 + 5)*50-birthDate+1769)
+  // alert(result) ou
   alert((shoesSize * 2 + 5) * 50 - birthDate + 1769);
 }
